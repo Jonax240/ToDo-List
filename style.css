@@ -10,14 +10,20 @@ h1 {
     color: #333;
 }
 
-input {
+.container {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+input {
     width: 30%;
     padding: 10px;
 }
 
 button {
-    justify-content: center;
     width: 30%;
     cursor: pointer;
     border-radius: 5px;
