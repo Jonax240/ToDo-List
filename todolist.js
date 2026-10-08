@@ -30,5 +30,22 @@ input.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     // même action que le bouton
     button.click();
+/*     // console.log("Button waz clicked !");
+
+    const task = input.value;
+
+    // console.log(task);
+
+    const li = document.createElement("li");
+
+    li.innerText = task;
+
+    list.appendChild(li);
+
+    input.value = "";
+
+    li.addEventListener("click", function () {
+        li.classList.toggle("completed");
+    }); */
   }
 });

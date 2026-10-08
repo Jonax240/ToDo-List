@@ -15,3 +15,7 @@
 - La tâche est mise dans le **li**
 - Le **li** est ajouté à la **ul**
 - Plusieurs tâches peuvent être ajoutées sans écraser les précédentes
+
+**En Plus**
+- Ajout de la touche *Entrée* pour valider de la tâche
+- Ajout d'un *trait* lorsque la tâche est cliquée pour larquer comme *terminée*
