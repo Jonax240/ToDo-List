@@ -38,3 +38,32 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+
+/* Style pour le bouton Supprimer dans la liste */
+li button {
+    width: auto; /* Évite qu'il ne prenne 30% de large comme le bouton principal */
+    background-color: #ff4d4d; /* Un rouge vif pour indiquer la suppression */
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-left: 10px; /* Un petit espace entre le texte de la tâche et le bouton */
+    transition: background-color 0.2s ease;
+}
+
+/* Petit effet au survol du bouton supprimer */
+li button:hover {
+    background-color: #cc0000;
+}
+
+/* Amélioration de l'apparence des éléments de la liste */
+li {
+    cursor: pointer; /* Indique qu'on peut cliquer sur la tâche pour la barrer */
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+li:hover {
+    background-color: #f0f0f0; /* Effet léger au survol de la tâche */
+}
